@@ -60,8 +60,7 @@ function guessWord(data) {
         } else if (numWrong >= word.length + 4) {
             $('.drawing').append("<h2 id='game-over'>Game Over!</h2>");
             endGame();
-        }
-        else {
+        } else {
             console.log("Wrong");
             numWrong++;
             $('#num-wrong').text("# wrong guesses: " + numWrong);
