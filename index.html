@@ -3,6 +3,7 @@
 <head>
     <title>Hangman</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' type='text/css' href='css/styles.css'>
 </head>
 <body>
@@ -10,7 +11,7 @@
     <h4 id="small-title">A simple web game built by John Garrison</h4>
     <div class="game hide">
         <div class="drawing">
-            <h1 id="num-wrong"></h1>
+            <h3 id="num-wrong"></h3>
         </div>
         <div class="letter-grid">
             <span class="letter">A</span>
@@ -42,6 +43,7 @@
         </div>
     </div>
     <button id="new-game" class="grey-btn">New Game</button>
+    <button id="reset" class="grey-btn hide">Reset</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/game.js"></script>
 </body>
